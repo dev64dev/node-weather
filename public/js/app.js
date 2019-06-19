@@ -1,4 +1,4 @@
-console.log("Client side JAVASCRIPT");
+console.log("Client side JAVASCRIPT...");
 
 fetch('http://localhost:3000?address=boston').then((response)=>{
     response.json().then((data) => {
